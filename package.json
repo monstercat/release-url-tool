@@ -1,0 +1,19 @@
+{
+  "name": "monstercat-release-url-tool",
+  "description": "release-url tool",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/monstercat/release-url-tool"
+  },
+  "bin": {
+    "monstercat-release-url": "./bin.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.2.35",
+    "minimist": "^1.2.0",
+    "mongojs": "^2.3.0",
+    "monstercat-release-url": "github:monstercat/release-url",
+    "ms": "^0.7.1"
+  }
+}
